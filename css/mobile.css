@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+    .burger {
+        width: 50px;
+        height: 50px;
+        display: none;
+
+    }
+    .grid-section{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .text {
+        font-size: 35px;
+        text-align: center;
+    }
+    .small-text {
+        text-align: center;
+    }
+    .images {
+        width: 100%;
+
+    }
+    header {
+        display: flex;
+        justify-content: start;
+
+    }
+    header a {
+        font-size: 10px;
+    }
+    header nav {
+        margin-left: 30px;
+    }
+    .index-section h1 {
+        margin-left: 0px;
+
+    }
+    .second-index-section {
+        flex-direction: column;
+    }
+    .line-text h1 {
+        left: 37%;
+    }
+}
+
+@media (max-width: 438px) {
+    .bq-image {
+        width: 100%;
+        background-position: center;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+
+    }
+    nav {
+        display: none;
+    }
+    .burger {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .grid-section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .index-section h1 {
+        font-size: 28px ;
+        width: 380px;
+    }
+    .index-section form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .line-text h1 {
+        left: 28%;
+        }
+
+    .menu-burger {
+        display: block;
+
+    }
+
+    .menu-burger nav {
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        background: rgba(255, 255, 255, 0.208);
+        backdrop-filter: blur(10px);
+        display: none;
+        flex-direction: column ;
+        align-items: center;
+        left: -30px;
+        top: 70px;
+        
+    }
+
+    .menu-burger nav a {
+        color: rgb(93, 77, 194);
+    }
+
+    
+
+}

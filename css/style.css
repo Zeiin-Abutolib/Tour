@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background: rgb(77, 137, 194);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(93, 77, 194, 0.404);
+    backdrop-filter: blur (10px);
+    z-index: 100;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+    transition: .3s all;
+
+}
+
+.btn:hover {
+    color: rgb(180, 235, 245);
+    transform: scale(1.1);
+}
+
+
+
+.logo {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.index-main {
+    background-color: rgb(77, 137, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.index-section form input {
+    font-size: 18px;
+    padding: 7px;
+    outline: none;
+    border: 1px soplid rgb(180, 235, 245);
+    
+}
+select {
+    font-size: 18px;
+    padding: 7px;
+    outline: none;
+    border: 1px soplid rgb(180, 235, 245);
+}
+
+.bq-image {
+    background: url(../assets/img/istambul.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.submit {
+    font-size: 19px;
+    padding: 10px 20px;
+    background: rgb(52, 76, 144);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    background: rgb(180, 235, 245);
+    color: black;
+    box-shadow: 0 0 10px rgb(52, 76, 144);
+
+}
+
+.index-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-section h1 {
+    padding: 30px;
+    width: 600px;
+    margin-left: 500px;
+    font-size: 40px;
+    color: white;
+}
+
+.images {
+    width: 500px;
+    object-fit: contain;
+}
+
+.text {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.second-index-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.second-index-section p {
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    padding-top: 40px;
+}
+hr {
+    width: 100%;
+    height: 2px;
+    border: none;
+    outline: none;
+    background: white;
+
+}
+
+.hr1 {
+    margin-top: 50px;
+}
+
+.hr2 {
+    margin-top: 50px;
+}
+
+.line-text {
+    width: 100%;
+    position: relative;
+}
+
+.line-text h1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    background: rgb(77, 137, 194);
+    width: fit-content;
+    top: -20px;
+    left: 43.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section{
+    margin-top: 50px;
+}
+
+.card-image {
+    width: 360px;
+    height: 400px;
+    background: url(../assets/img/istambul.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image:hover {
+    background: url(../assets/img/stambul-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-antalia {
+    width: 360px;
+    height: 400px;
+    background: url(../assets/img/antalya2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.card-image-antalia:hover {
+    background: url(../assets/img/antalya-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-ankara {
+    width: 360px;
+    height: 400px;
+    background: url(../assets/img/ankara-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-ankara:hover {
+    background: url(../assets/img/ankara-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-adana {
+    width: 360px;
+    height: 400px;
+    background: url(../assets/img/adana-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-adana:hover {
+    background: url(../assets/img/adana-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+.more {
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid rgb(52, 76, 144);
+   border-radius: 10px;
+   transition: .3s;
+}
+
+.more:hover {
+    background: rgb(52, 76, 144);
+    color: white;
+}
+.line {
+    margin-top: 50px;
+}
+
+.tour-main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tour-section h1 {
+    font-size: 60px;
+    color: white;
+    width: 1000px;
+
+}
+
+@media (max-width: 430px) {
+
+    .tour-section h1 {
+        font-size: 22px;
+        color: white;
+        width: 400px;
+        text-align: center;
+
+    
+    }
+
+    .line {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .tour-section {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        overflow: hidden;
+    }
+
+    .tour-main {
+        margin-top: 100px;
+        
+    }
+    .second-tour-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .brone .menu-button {
+        font-size: 20px;
+        
+    }
+    .brone .booking {
+        font-size: 20px;
+        margin: 0;
+        
+    }
+
+
+}
+
+.tour-section article {
+    color: white;
+    font-size: 30px;
+}
+
+.tour-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    overflow: hidden;
+}
+
+.tour-section article h3 {
+    color: rgb(52, 76, 144);
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+
+}
+
+.second-tour-section {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.second-tour-section article h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.second-tour-section article {
+    animation: qwerty 1s linear;
+}
+
+@keyframes qwerty {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.brone {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.brone button {
+    margin: 30px;
+    font-size: 30px;
+    padding: 13px 23px;
+    border: none;
+    border-radius: 20px;
+    transition: .2s ease;
+}
+
+.booking {
+    background: rgb(0, 64, 161);
+    color: rgb(255, 255, 255);
+}
+
+.booking:hover{
+    background: rgb(0, 87, 216);
+}
+.menu-burger {
+    display: none;
+
+}
+
+.menu-burger:hover .test {
+    display: flex;
+}
+
+.menu-image {
+    width: 500px;
+    height: auto;
+}
+.menu {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.212);
+    top: 60%;
+    left: 17%;
+    padding: 50px;
+}
+
+.tour-div {
+    background: white;
+    width: 900px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.menu-button:focus .menu {
+    display: flex;
+}
+
+.image-stambul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    height: 100vh;
+}
+
+footer {
+    margin-top: 50px;
+    background: rgb(52, 76, 144);
+    height: 50vh;
+    padding: 6%
+}
+
+.bailanys input {
+    padding: 15px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color {
+    background: rgb(77, 137, 194);
+}
+
+
+.burger {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
